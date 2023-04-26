@@ -1,0 +1,95 @@
+.logo {
+  max-width: 170px;
+  width: 100%;
+}
+.header {
+  background-color: var(--color-white);
+  border-radius: 8px;
+}
+.log_in_button {
+  color: var(--color-green);
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid var(--color-green);
+  border-radius: 8px;
+  padding: 10px 25px;
+}
+.log_in_button:hover {
+  border: 1px solid var(--color-dark-blue);
+  color: var(--color-dark-blue);
+}
+.log_in_button:hover svg path {
+  fill: var(--color-dark-blue);
+}
+.sign_up {
+  color: var(--color-green);
+  font-weight: 600;
+}
+.sign_up:hover {
+  color: var(--color-dark-blue);
+}
+.nav_link {
+  color: var(--color-black);
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav_link:hover {
+  color: var(--color-green);
+}
+.nav_link:hover svg path {
+  fill: var(--color-green);
+}
+.overlay_navbar {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+.heading {
+  font-size: var(--font-xl);
+  font-weight: 600;
+}
+.para {
+  font-size: var(--font-sm);
+  font-weight: 600;
+  opacity: 0.7;
+}
+.card_1 {
+  background-color: var(--color-green);
+  border-radius: 5px;
+  padding: 40px;
+}
+.sub_heading {
+  font-size: var(--font-md);
+  font-weight: 600;
+  max-width: 150px;
+  color: var(--color-white);
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+.bg_dark_blue {
+  background-color: var(--color-dark-blue);
+}
+.card_1 svg {
+  transition: all 0.3s ease-in-out;
+}
+.card_1:hover svg {
+  transform: translateX(-5px);
+}
+@media (max-width: 575.98px) {
+  .card_1 {
+    padding: 30px;
+  }
+  .sub_heading {
+    min-height: 70px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+  .new_container {
+    max-width: 1140px !important;
+  }
+}

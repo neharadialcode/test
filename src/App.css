@@ -1,0 +1,69 @@
+:root {
+  --font-xs: 14px;
+  --font-sm: 16px;
+  --font-md: 24px;
+  --font-lg: 40px;
+  --font-xl: 55px;
+  --color-green: #1ad079;
+  --color-dark-blue: #07133b;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
+@media (max-width: 1199.98px) {
+  :root {
+    --font-xs: 14px;
+    --font-sm: 15px;
+    --font-md: 20px;
+    --font-lg: 32px;
+    --font-xl: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-xs: 14px;
+    --font-sm: 14px;
+    --font-md: 20px;
+    --font-lg: 28px;
+    --font-xl: 30px;
+  }
+}
+body {
+  background: var(--color-white) url("./assets/img/shadow_img.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.fs_xs {
+  font-size: var(--font-xs) !important;
+}
+
+.fs_sm {
+  font-size: var(--font-sm) !important;
+}
+
+.fs_md {
+  font-size: var(--font-md) !important;
+}
+
+.fs_lg {
+  font-size: var(--font-lg) !important;
+}
+
+.fs_xl {
+  font-size: var(--font-xl) !important;
+}
+
+.text_white {
+  color: var(--color-white) !important;
+}
+
+.opacity_07 {
+  opacity: 0.7 !important;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
