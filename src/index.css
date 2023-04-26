@@ -80,6 +80,42 @@
 .card_1:hover svg {
   transform: translateX(-5px);
 }
+.form_input input {
+  background-color: #141f45;
+  border-radius: 4px;
+  padding: 12px 10px;
+  border: none;
+  width: 100%;
+  margin-top: 8px;
+}
+.form_input textarea {
+  background-color: #141f45;
+  border-radius: 4px;
+  padding: 10px 10px;
+  border: none;
+  width: 100%;
+  margin-top: 8px;
+}
+.form_input input::placeholder {
+  color: var(--color-white);
+  opacity: 0.7;
+}
+.form_input textarea::placeholder {
+  color: var(--color-white);
+  opacity: 0.7;
+}
+.submit_button {
+  background-color: var(--color-green);
+  width: 100%;
+  color: var(--color-white);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.contact {
+  font-size: var(--font-lg);
+  font-weight: 600;
+}
 @media (max-width: 575.98px) {
   .card_1 {
     padding: 30px;
